@@ -326,8 +326,8 @@ pub fn process_instruction(
     program_id: &Pubkey,
     accounts: &[AccountInfo],
     instruction_data: &[u8]
-  ) -> ProgramResult {
-	// unpack instruction data
+) -> ProgramResult {
+    // unpack instruction data
     let instruction = MovieInstruction::unpack(instruction_data)?;
     match instruction {
         MovieInstruction::AddMovieReview { title, rating, description } => {
