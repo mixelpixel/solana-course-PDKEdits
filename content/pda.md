@@ -309,7 +309,7 @@ impl MovieInstruction {
 }
 ```
 
-### 3. Update to `processor.rs`
+### 4. Update to `processor.rs`
 
 Recall that `processor.rs` defines the logic for how we process each instruction within our program. To enable commenting, we’ll update the `add_movie_review` function and then implement the `add_comment` function.
 
@@ -501,7 +501,7 @@ pub fn add_comment(
 }
 ```
 
-### 4. Build and deploy
+### 5. Build and deploy
 
 We're ready to build and deploy our program!
 
